@@ -58,7 +58,7 @@ class ApplicationController < Sinatra::Base
   end
 
   delete '/recipes/:id/delete' do
-
+    Recipe.clear
   end
 
 
