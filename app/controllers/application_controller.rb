@@ -43,7 +43,7 @@ class ApplicationController < Sinatra::Base
 
     erb :show
 
-    #redirect to "/recipes/#{@recipe.id}"
+    redirect to '/recipes/#{@recipe.id}''
   end
 
 
