@@ -57,6 +57,10 @@ class ApplicationController < Sinatra::Base
     #redirect to "/posts/#{@post.id}"
   end
 
+  delete '/recipes/<%=@recipe.id%>/delete' do
+    
+  end
+
 
 
 end
